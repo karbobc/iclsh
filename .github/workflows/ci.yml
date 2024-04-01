@@ -69,7 +69,7 @@ jobs:
         id: docker_meta
         with:
           images: |
-            ${{ secrets.DOCKER_HUB_USERNAME }}/iclsh
+            ghcr.io/${{ github.repository }}
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
