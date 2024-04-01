@@ -54,7 +54,7 @@ jobs:
     name: Docker build and push
     runs-on: ubuntu-latest
     needs:
-      - build-lgp-web
+      - build-static-files
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
