@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "vitepress dev pages",
+    "build": "vitepress build pages",
+    "preview": "vitepress preview pages",
+    "format": "biome check --apply ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.6.3",
+    "vitepress": "^1.0.1"
+  }
+}
