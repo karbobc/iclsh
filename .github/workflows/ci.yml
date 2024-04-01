@@ -71,7 +71,7 @@ jobs:
           images: |
             ghcr.io/${{ github.repository }}
           tags: |
-            type=row,latest
+            type=raw,latest
             type=ref,event=branch
             type=ref,event=pr
             type=sha
